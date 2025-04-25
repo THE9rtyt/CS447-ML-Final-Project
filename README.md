@@ -1,7 +1,8 @@
 The classification report evaluates the performance of the model for each class (-1, 1, 2)
-    -1 represents one of the classes in the target variable (POOR performance after injury)
-     1 represents another class in the target variable (AVERAGE performance after injury)
-     2 represents the third class in the target variable (GOOD performance after injury)
+    
+    - -1 represents one of the classes in the target variable (POOR performance after injury)
+    - 1 represents another class in the target variable (AVERAGE performance after injury)
+    - 2 represents the third class in the target variable (GOOD performance after injury)
 
 Metrics:
     
