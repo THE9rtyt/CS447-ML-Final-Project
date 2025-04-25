@@ -4,6 +4,7 @@ The classification report evaluates the performance of the model for each class 
      2 represents the third class in the target variable (GOOD performance after injury)
 
 Metrics:
+    
     - Precision measures how many of the predicted instances for a class are actually correct (For class -1 & precision with 0.41, meaning 41% predictions for this class are correct)
         - It answers "Of all the players predicted to be in this class, how many truly belong to it?"
 
@@ -18,6 +19,7 @@ Metrics:
     - Weight Average is the average of the precision, recall, and F1-score across all classes, weighted by the number of instances (support) in each class.
 
 Code:
+    
     - Feature Selection X includes columns related to player statistics
         - The code extracts features (Name, Team Name, Position, Age, Season, FIFA Rating, Injury Type, Date of Injury, Date of Retrurn, Match1_before_injury_player_rating, and Match3_after_injury_Player_rating)
 
@@ -27,4 +29,5 @@ Code:
     - The RandomForestClassifier is trained to predict the performance category (low, medium, high) for each player based on their features
 
 Insights:
+   
     - The overall accuracy of 41% is quite low, reflecting that the model struggles to predict the correct class for most test samples.
